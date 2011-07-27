@@ -6,10 +6,10 @@ module MINT
      def initialize_statemachine
       if @statemachine.blank?
         @statemachine = Statemachine.build do
-          trans :NoHands, :right_appeared, :OneHand
+          trans :NoHands, :one_hand, :OneHand
 
           superstate :OneHand do
-            event :right_disappeared, :NoHands
+            event :no_hands, :NoHands
             superstate :Command do
               trans :wait_one, :select, :selected
               trans :selected, :confirm, :confirmed

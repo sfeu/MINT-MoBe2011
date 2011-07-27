@@ -1,9 +1,5 @@
 require 'rubygems'
-require "bundler/setup"
-require "app/agents/agent"
-require "app/mint/aui_model"
-require "app/mint/cui_gfx_model"
-require "app/mint/ir/handgesture_model"
+require "MINT-core"
 require "fastercsv"
 
 include MINT
