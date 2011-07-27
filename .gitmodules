@@ -1,0 +1,6 @@
+[submodule "vendor/plugins/MINT-rails"]
+	path = vendor/plugins/MINT-rails
+	url = ssh://git@multi-access.de/MINT-rails
+[submodule "vendor/plugins/embedded-actions"]
+	path = vendor/plugins/embedded-actions
+	url = https://github.com/sd/embedded-actions.git
