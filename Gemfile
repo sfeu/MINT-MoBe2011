@@ -1,3 +1,5 @@
+ENV['RB_USER_INSTALL'] = '1'
+
 source :rubygems
 source "http://gems.rubyforge.org"
 source "http://gems.github.com"
