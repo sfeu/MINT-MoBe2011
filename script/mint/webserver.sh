@@ -1,3 +1,3 @@
 #!/bin/bash
-script/server
+bundle exec script/server
 

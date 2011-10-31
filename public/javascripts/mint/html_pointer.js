@@ -35,7 +35,7 @@ jug.subscribe("pointer", function(data) {
             }
             console.log ("pos "+c[0]+" "+c[1]+" "+c[2]);
 
-            change_pos("POS",null,c[0],c[1],c[2]);
+           // change_pos("POS",null,c[0],c[1],c[2]);
             break;
 
         case 'DRAG':
@@ -44,13 +44,13 @@ jug.subscribe("pointer", function(data) {
             drag_obj= "#"+a[1];
             drag_x = $(drag_obj).offset().left -d[0];
             drag_y = $(drag_obj).offset().top -d[1];
-            change_pos("DRAG",a[1],d[0],d[1],d[2]);
+            //change_pos("DRAG",a[1],d[0],d[1],d[2]);
             break;
         case 'DROP':
             var e = a[2].split(",");
             console.log ("drop "+a[1]+" "+e[0]+" "+e[1]);
             drag_obj = null;
-            change_pos("DROP",a[1],e[0],e[1],e[2]);
+             // change_pos("DROP",a[1],e[0],e[1],e[2]);
             break;
     }
 });
@@ -90,7 +90,7 @@ function startWS(server_address) {
 function ws_reconnect_timer() {
     if (!ws_reconnect_timer_started) {
         ws_reconnect_timer_started = true;
-        setTimeout('startWS()', 2000);
+        setTimeout('startWS()', 500);
     }
 }
 

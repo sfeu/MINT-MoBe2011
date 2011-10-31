@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ruby lib/models/navigation-test.rb
-ruby lib/models/mobe2011-aui.rb
+bundle exec ruby lib/models/navigation-test.rb
+bundle exec ruby lib/models/mobe2011-aui.rb

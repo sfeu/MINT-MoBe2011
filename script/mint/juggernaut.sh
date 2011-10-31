@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ../juggernaut
-node server.js
+juggernaut
+#node server.js
