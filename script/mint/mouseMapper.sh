@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ruby vendor/plugins/MINT-rails/lib/agents/mouseMapperAgent.rb
+bundle exec ruby lib/agents/mouseMapperAgent.rb
