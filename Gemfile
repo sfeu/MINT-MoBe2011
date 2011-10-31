@@ -25,6 +25,7 @@ gem "rack","1.1.2"
 gem "rdoc"
 gem "i18n"
 gem "wxruby","2.0.0"
+gem "bcrypt-ruby","2.1.2"
 
 
 # MoBe2011 dependencies
