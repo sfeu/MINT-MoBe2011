@@ -6,8 +6,10 @@ GIT
     juggernaut (2.0.1)
       redis
 
-PATH
-  remote: ../MINT-core-scxml
+GIT
+  remote: ssh://git@multi-access.de/MINT-core.git
+  revision: 8b41cffbb0b8df28793abe15f91151889d0545db
+  branch: head_movements
   specs:
     MINT-core (0.0.1)
       MINT-statemachine (~> 1.2.2)
@@ -71,7 +73,7 @@ GEM
       activesupport (= 2.3.12)
     activesupport (2.3.12)
     addressable (2.2.4)
-    bcrypt-ruby (2.1.4)
+    bcrypt-ruby (2.1.2)
     cassowary (1.0.0)
     cgi_multipart_eof_fix (2.5.0)
     daemons (1.1.4)
@@ -131,6 +133,7 @@ DEPENDENCIES
   MINT-statemachine!
   activesupport (= 2.3.12)
   addressable (= 2.2.4)
+  bcrypt-ruby (= 2.1.2)
   cassowary (= 1.0.0)
   dm-core (= 0.10.2)
   dm-rinda-adapter!
