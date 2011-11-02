@@ -3,4 +3,4 @@
 	url = https://github.com/sd/embedded-actions.git
 [submodule "vendor/plugins/MINT-rails"]
 	path = vendor/plugins/MINT-rails
-	url = ssh://git@multi-access.de/MINT-rails
+	url = git://github.com/sfeu/MINT-rails.git
